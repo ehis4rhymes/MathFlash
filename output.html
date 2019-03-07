@@ -3,10 +3,11 @@
 <head>
 <script src="output.js"></script>
 </head>
-<body>
+    
+<body style="background-color: burlywood;">
 
 <center>
-  <h1 id="inner_script">
+  <h1 id="inner_script" style="font-size: 50px;">
       <script>
           var numOne = Math.floor(Math.random()* 10) + 1 ;
           var numTwo =  Math.floor(Math.random()* 10) + 1;
@@ -14,15 +15,19 @@
           var correctAnswer = numOne + numTwo;
       </script>
   </h1>
+    <br/><br/>
 
-
-     <p> Please  enter your name <big><b>answer</b></big>:</p>
+     <h3 style="font-size: 25px; color: darkblue;"><p> Please  enter your <big><b>answer</b></big>:</p></h3>
 
      <input id="answer">
-     <button type="button" onclick="addition()" >Submit</button>
-     <input type="button" value="Get New Card" onclick="newCard()">
+    
+     <button type="button" onclick="addition()" ><b>Submit</b></button>
+    
+    <input type="button" value="Get New Card" onclick="newCard()">
      <br/><br/>
-     <p id="output"></p>
+    
+     <p id="output" style="font-size: 40px; color: darkblue;"></p>
 </center>
+    
 </body>
 </html>

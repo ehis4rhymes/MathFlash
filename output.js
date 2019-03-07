@@ -12,6 +12,7 @@ function addition(){
 	  }
 }
 
+
 function newCard(){
     document.getElementById("output").innerHTML = "";
     document.getElementById("answer").value = "";
